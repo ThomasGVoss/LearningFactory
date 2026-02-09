@@ -59,4 +59,4 @@ Operation. Springer Vieweg, Wiesbaden.
 ▪ Wolf-Kluthausen, H. (Hrsg.) (2016): Jahrbuch Logistik 2016. free beratung GmbH,
 Korschenbroich
 
-podman run -p 8888:8888 -v .:/home/jovyan/work jupyter/datascience-notebook
+docker run -p 8888:8888 -v "${PWD}":/home/jovyan/work jupyter/datascience-notebook
